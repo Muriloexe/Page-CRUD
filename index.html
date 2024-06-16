@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create</title>
+
+     <!--
+        Conexão com css
+    -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+</head>
+<body>
+<header>
+        <div id="divheader">
+            <h1>
+                CRUD
+            </h1>
+                    <h3><a href="login.html">Entrar</a></h3>
+        </div>
+    </header>
+
+    <div id="left-bar">
+            <button id="create">
+                Create
+            </button>
+
+            <button id="read">
+                Read
+            </button>
+
+            <button id="Update">
+                Update
+            </button>
+
+            <button id="delete">
+                Delete
+            </button>
+
+        </div>
+
+    <div id="principal">
+        <div id="content">
+            <form method="post" id="form" action="funcoes.php">
+                <fieldset>
+                    <legend>Cadastro</legend>
+                        Insira os dados abaxio para se cadastrar:
+                        <br>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="id_nome">
+                            <br>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="id_email">
+                                <br>
+                                    <label for="endereco">Endereço</label>
+                                    <input type="text" name="endereco" id="id_endereco">
+                                    <br>
+                                        <label for="telefone">Telefone:</label>
+                                        <input type="number" name="telefone" id="id_telefone">
+                                        <br>
+                                            <label for="password">Senha</label>
+                                            <input type="password" name="password" id="id_password">
+                                            <br>
+                                                <button type="submit" value="Enviar">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
