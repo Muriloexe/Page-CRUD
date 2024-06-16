@@ -1,0 +1,1 @@
+Insert into Alunos(nome,email,endereco,telefone,senha,Adm) values('murilo','murilindo123@gmail.com','Rua A',12345678901,12345,1);

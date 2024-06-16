@@ -1,0 +1,17 @@
+<?php
+//nova conexão:
+    $hostname = "localhost";
+    $bancodedados = "usuarios";
+    $user = "root";
+    $password = "";
+$mysqli = new mysqli ($hostname, $user, $password, $bancodedados);
+
+//validacao da conexao:
+
+if($mysqli){
+    echo 'Login efetuado no dia ' . date('d/m/y') . ' no horário ' . date('H:i:s');
+   
+}else{
+    die('Problema de conexão: '.mysqli_connect_error($mysqli)); //possível erro
+}
+?>
