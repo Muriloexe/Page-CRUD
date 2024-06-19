@@ -18,6 +18,7 @@ $db_selected = mysqli_select_db($conexao,'users');
 
 //processo de conexão
 
+
 //teste
 /*$insercao = "insert into users (nome, email, endereco, telefone, senha, adm) values ('Maria', 'maria@gmail.com', 'Rua C', 11987654321, 'Maria123', 0)";
 mysqli_query($conexao, $insercao) or die ("Não foi possível executar a inserção de dados na tabela"); */
